@@ -15,6 +15,11 @@
 		<artifactId>maven-pmd-plugin</artifactId>
 		<version>3.6</version>
 	</dependency>
+	<dependency>
+    <groupId>org.kuali.maven.plugins</groupId>
+    <artifactId>wagon-maven-plugin</artifactId>
+    <version>1.0.5</version>
+    </dependency>
    </dependencies>
   <name>Replace for project1</name>
 </project>
