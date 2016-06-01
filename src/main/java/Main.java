@@ -6,6 +6,6 @@ public class Main
 	{
 	AddNumbers.main(new String[0]);
 	SubNumbers.main(new String[0]);
-	// MulNumbers.main(new String[0]);
+	MulNumbers.main(new String[0]);
 	}
 }
