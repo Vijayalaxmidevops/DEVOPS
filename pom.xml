@@ -5,24 +5,20 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>project1</groupId>
-  <artifactId>project1</artifactId>
+  <groupId>words</groupId>
+  <artifactId>words</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
+  
   <dependencies>
 	<dependency>
 		<groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-pmd-plugin</artifactId>
 		<version>3.6</version>
 	</dependency>
-	<dependency>
-    <groupId>org.kuali.maven.plugins</groupId>
-    <artifactId>wagon-maven-plugin</artifactId>
-    <version>1.0.5</version>
-    </dependency>
-   </dependencies>
-  <name>Replace for project1</name>
-  <build>
+ </dependencies>
+
+ <build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -35,4 +31,5 @@
         </plugin>
     </plugins>
 </build>
+  
 </project>
